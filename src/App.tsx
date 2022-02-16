@@ -1,7 +1,9 @@
+import Populations from "./pages/populations";
+
 export default function App() {
   return (
-    <div className="bg-basic-blue flex justify-center items-center min-h-screen">
-      <span>Test</span>
+    <div className="bg-custom-100 min-h-screen">
+      <Populations />
     </div>
   );
 }
